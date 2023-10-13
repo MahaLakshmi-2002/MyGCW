@@ -1,0 +1,83 @@
+
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.logo {
+  height: 100%;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 20px;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.nav-link {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.auth-buttons {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.btn {
+  margin-left: 10px;
+  padding: 10px 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  gap: 10px;
+  flex: 1;
+  display: inline-flex; /* Add this to make the buttons inline */
+  align-items: center;
+}
+
+.btn-secondary {
+  background-color: #333;
+}
+
+/* Additional Styles for Specific Buttons */
+.sign-up-btn {
+  width: 120px;
+  height: 50px;
+  padding: 10px 16px;
+  border-radius: 10px;
+  color: black;
+  margin-left: 10px;
+}
+
+.login-btn {
+  width: 55px;
+  height: 37px; /* Set the height to match the other buttons */
+  padding: 6px 10px;
+  border-radius: 10px;
+  background: #fff61a;
+  color: black;
+}
+
+.btn:not(:last-child) {
+  margin-right: 0;
+}
+abbr{
+  text-decoration: none!important;
+  cursor: pointer !important;
+}
+

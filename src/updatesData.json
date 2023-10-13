@@ -1,0 +1,36 @@
+{
+    "latestUpdates": [
+      {
+        "id": 1,
+        "title": "Update 1",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      {
+        "id": 2,
+        "title": "Update 2",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      {
+        "id": 3,
+        "title": "Update 3",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      {
+        "id": 4,
+        "title": "Update 4",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      {
+        "id": 5,
+        "title": "Update 5",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      {
+        "id": 6,
+        "title": "Update 6",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      }
+      
+      
+    ]
+  }

@@ -1,0 +1,54 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 10px;
+  color: black;
+  border: 1px solid whitesmoke;
+}
+
+.navbar-menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 50px;
+  /* Align items to the right */
+}
+
+.navbar-menu li {
+  list-style-type: none;
+  margin-left: none;
+  white-space: normal;
+
+  /* Ensure the text stays on one line */
+}
+
+.navbar-menu li a {
+  color: black;
+  background-color: white;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 8px;
+  transition: background-color 0.3s, color 0.3s;
+  text-decoration: none;
+  /* Remove underlines */
+  display: inline-block;
+  /* Ensure the link stays on one line */
+  line-height: 1;
+  /* Remove extra line height */
+  text-align: center;
+}
+
+.navbar-menu li a:hover {
+  background-color: rgba(0, 231, 0, 0.25);
+  color: darkgreen;
+}
+.navbar-link.clicked {
+  background-color: #00e700;
+  color: darkgreen;
+  /* Add any additional styles for the clicked state of the link */
+}

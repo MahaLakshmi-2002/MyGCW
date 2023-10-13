@@ -1,0 +1,145 @@
+.about-us-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.image-wrapper {
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+}
+
+.about-box1,
+.about-box2 {
+  width: 100%;
+  height: 450px;
+  background-color: white; /* Add your desired background color here */
+  border: 1px solid whitesmoke;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.about-box1 img,
+.about-box2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px; /* Add the same border-radius as the container */
+}
+
+.about-box1 .content {
+  width: 60%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 34px; /* Set font size to 38px */
+  font-family: "Montserrat", sans-serif; /* Use Montserrat font */
+  font-weight: 500; /* Set font weight to medium */
+  color: #00e700;
+  margin-left: 30px;
+}
+
+.about-box1 h2,
+.about-box2 h2 {
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #00e700;
+  font-family: "Montserrat", sans-serif;
+}
+
+.about-box1 p,
+.about-box2 p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  justify-content: center;
+  text-align: center;
+  padding-left: 40px;
+}
+.about-box2 .image-boxes {
+  display: none;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  width: 60%;
+  margin-left: auto;
+}
+
+.about-box2 .image-box {
+  width: 80%;
+  height: 70%;
+}
+.about-box2 .content {
+  font-size: 22px; /* Set font size to 22px */
+  font-family: "Montserrat", sans-serif; /* Use Montserrat font */
+  font-weight: 500; /* Set font weight to medium */
+  color: rgba(0, 0, 0, 0.7); /* Set color to black with 70% opacity */
+  padding: 10px;
+  height: 450px;
+}
+
+.carbon-calculator-container {
+  width: 100%;
+  height: 343px;
+  background-color: #000000;
+  border-radius: 8px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.carbon-image {
+  width: 40%;
+  height: 100%;
+}
+
+.carbon-image img {
+  width: 100%;
+  height: 80%;
+  object-fit: fill;
+  margin-top: 35px;
+  margin-left: 35px;
+}
+.carbon-content {
+  font-family: "Poppins", sans-serif;
+  color: rgb(10, 230, 10);
+  text-align: center;
+  padding: 200px;
+  font-size: 16px;
+}
+
+.carbon-content h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: medium;
+  font-size: 22px;
+  line-height: 1.5;
+  color:#ffffff;
+}
+
+.carbon-content h1 {
+  font-size: 22px;
+  font-weight: medium;
+}
+
+.carbon-content p:first-child {
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  font-weight: medium;
+  line-height: 1.5;
+  color:#ffffff;
+}
+
+.carbon-content p:last-child {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 20px;
+  color:#fafa33;
+}
+

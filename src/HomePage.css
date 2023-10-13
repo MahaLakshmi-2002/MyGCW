@@ -1,0 +1,543 @@
+/* Additional styles for Join the Tribe button */
+.join-tribe-button {
+  position: fixed;
+  top: 50%;
+  display: flex;
+  justify-content: flex-end; /* Align content to the right */
+  transform: translateY(-50%);
+  z-index: 999; /* Ensure the button is above other content */
+  align-items: flex-end;
+  right: 7px;
+}
+.join-tribe-button button {
+  padding: 10px 20px;
+  background-color: #00e700;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.tribe-logo {
+  vertical-align: middle;
+}
+.toggle-arrow {
+  width: 40px;
+  height: 40px;
+  background-color: #25b15f;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.toggle-arrow:hover {
+  background-color: yellow;
+}
+
+.toggle-arrow .arrow-icon {
+  color: black; /* Set the arrow color to white */
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Updated arrow-up and arrow-down styles */
+.arrow-up .arrow-icon {
+  transform: rotate(180deg); /* Flip the arrow for the up state */
+}
+
+.arrow-down .arrow-icon {
+  transform: rotate(0deg); /* Reset the arrow rotation for the down state */
+}
+.latest-updates-container {
+  display: grid;
+  grid-template-columns: repeat(3, 426px);
+  gap: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.latest-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 347px;
+
+  overflow: hidden;
+  background-color: white;
+  border: 0.5px solid black;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.latest-updates-box h2 {
+  margin-bottom: 20px;
+  color: #00e700;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 42px;
+}
+.latest-box {
+  width: 426px;
+  height: 347px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-right: 20px;
+  overflow: hidden;
+  background-color: white;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Add transitions for smooth effect */
+}
+.latest-box:hover {
+  background-color:white; /* Add background color on hover */
+  transform: scale(1.05); /* Zoom-in effect on hover */
+}
+
+.latest-box .latest-box-image {
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.latest-box .box-image img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.latest-box .box-content {
+  padding: 10px;
+  height: 40%;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0);
+  text-align: left;
+}
+.latest-box .box-content h3 {
+  margin-bottom: 10px;
+}
+.swiper {
+  width: 100%;
+
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+
+  font-size: 18px;
+
+  background: #fff;
+
+  /* Center slide text vertically */
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+
+  width: 100%;
+
+  height: 100%;
+
+  object-fit: cover;
+}
+
+.profile-view-container {
+  width: 100%;
+
+  height: 200%;
+
+  background: greenyellow;
+
+  border-radius: 8px;
+
+  margin: 10px;
+
+  display: flex;
+
+  align-items: center;
+
+  overflow: hidden;
+
+  justify-content: center;
+
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+  transition: background-color 0.3s ease, transform 0.3s ease;
+
+  padding: 40px 0;
+}
+
+.swiper {
+  width: 100%;
+
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+
+  font-size: 18px;
+
+  background: greenyellow;
+
+  border-radius: 15px;
+
+  /* Center slide text vertically */
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+
+  width: 100%;
+
+  height: 100%;
+
+  object-fit: cover;
+}
+
+.swiper {
+  margin-left: auto;
+
+  margin-right: auto;
+}
+
+.profile-content {
+  margin: 0 40px;
+}
+
+.card {
+  width: 480px;
+
+  border-radius: 25px;
+
+  background-color: white;
+
+  margin-left: 10%;
+
+  margin-right: 10%;
+
+  margin-bottom: 10%;
+
+  margin-top: 10%;
+}
+
+.card :hover {
+  cursor: pointer;
+}
+
+.image-content,
+.card-content {
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  padding: 10px 14px;
+}
+
+.image-content {
+  position: relative;
+
+  row-gap: 5px;
+
+  padding: 25px 0;
+}
+
+.overlay {
+  position: absolute;
+
+  left: 0;
+  top: 0;
+
+  height: 100%;
+
+  width: 100%;
+
+  border-radius: 25px 25px 0 25px;
+
+  background-color: whitesmoke;
+}
+
+.overlay::before,
+.overlay::after {
+  content: "";
+
+  position: absolute;
+
+  right: 0;
+
+  bottom: -40px;
+
+  height: 40px;
+
+  width: 40px;
+
+  background-color: whitesmoke;
+}
+
+.overlay::after {
+  border-radius: 0 25px 0 0;
+
+  background-color: #ffffff;
+}
+
+.card-image {
+  position: relative;
+
+  height: 300px;
+
+  width: 300px;
+
+  border-radius: 20%;
+
+  padding: 3px;
+}
+
+.card-image .card-img {
+  height: 100%;
+
+  width: 100%;
+
+  object-fit: cover;
+
+  border-radius: 10%;
+
+  border: 4px solid rgba(170, 165, 165, 0.37);
+}
+
+.name {
+  font-size: 35px;
+
+  color: green;
+
+  margin-top: 15px;
+
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 14px;
+
+  color: #707070;
+
+  text-align: center;
+}
+
+.carbon-calculator-container {
+  width: 100%;
+  height: 343px;
+  background-color: #000000;
+  border-radius: 8px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.carbon-image {
+  width: 40%;
+  height: 100%;
+}
+
+.carbon-image img {
+  width: 100%;
+  height: 80%;
+  object-fit: fill;
+  margin-top: 35px;
+  margin-left: 35px;
+}
+.carbon-content {
+  font-family: "Poppins", sans-serif;
+  color: rgb(10, 230, 10);
+  text-align: center;
+  padding: 200px;
+  font-size: 16px;
+}
+
+.carbon-content h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: medium;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+.carbon-content h1 {
+  font-size: 22px;
+  font-weight: medium;
+}
+
+.carbon-content p:first-child {
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  font-weight: medium;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+.carbon-content p:last-child {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 20px;
+  color: #fafa33;
+}
+
+/* HomePage.css */
+
+.climate-box {
+  width: 853px;
+  height: 360px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.homepage h2 {
+  color: #00e700; /* Green color code */
+  text-align: left; /* Center the text */
+  font-weight: bold; /* Apply bold font weight */
+  font-size: 42px; /* Set font size to 42px */
+  margin-left: 10px;
+}
+.climate-box {
+  font-family: "Poppins", sans-serif; /* Use Poppins font */
+  font-weight: 500; /* Use medium font weight */
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.7);
+  justify-content: center;
+}
+.sponsor-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 347px;
+  background-color:white; /* Set background color for the sponsor box */
+  margin-top: -35px;
+}
+
+.sponsor-content h2 {
+  color: #ffffff; /* Set text color to white */
+  background-color: #00e700; /* Set background color for the heading */
+  text-align: left; /* Center the text */
+  font-weight: bold; /* Apply bold font weight */
+  font-size: 42px; /* Set font size to 42px */
+  padding: 10px; /* Add some padding to the heading */
+  margin-top: -20px; /* Adjust this value to move the heading upwards */
+  width: 100%;
+}
+
+.sponsor-content .box-image {
+  flex: 1; /* Let the image take 50% of the available height */
+}
+
+.sponsor-content .box-image img {
+  width: 100%; /* Ensure the image takes 100% of the container width */
+  height: 100%; /* Make the image fill the entire container height */
+}
+
+.sponsor-content .box-content {
+  height: 50%; /* Let the content take 50% of the available height */
+}
+/* Add a new class for the box section */
+.box-section {
+  display: flex;
+  gap: 20px;
+}
+/* ... (previous CSS code) ... */
+
+.swiper-container {
+  height: 25%; /* Adjusted to take 25% of the available height */
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: white;
+  border-radius: 15px;
+  height: 100%; /* Each slide takes up 100% of the height within the container */
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+}
+.sponsor-content {
+  
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 475px;
+  width: 35%; /* Set the width to 25% of the page */
+  background-color: #ddffdd;
+  margin-top: -35px;
+}
+.sponser-button{
+margin-right: 20%;
+background-color: #ffffff;
+border-color: #e9e9e9;
+border: 1px solid #ccc;
+color: #333;
+
+
+}
+.sponser-button:hover{
+  cursor: pointer;
+  background-color: #fafa33;
+}
+
+/* ... (rest of your CSS code) ... */
+.post-event,.post-hotroles,.post-cleantech-update,.post-investor-update,.sponser-button{
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  background-color: white;
+}
+.post-event:hover,
+.post-hotroles:hover,
+.post-cleantech-update:hover,
+.post-investor-update:hover,
+.sponser-button:hover {
+    /* Define the styles you want when hovering here */
+    background-color:yellow; /* Change the background color */
+    color: #333; /* Change the text color */
+    border: 1px solid #ccc; /* Change the border */
+    /* Add any other styles you want to change on hover */
+}
+
+.view-button-1{
+  border-radius: 12px;
+  margin-left:40px;
+  color: #333;
+  border-color: #e9e9e9;
+  border: 1px solid #ccc; 
+  background-color: white;
+}
+.view-button-1:hover{
+  background-color:#fafa33;
+}
+.view-button{
+  margin-left: 150px;
+  border-radius: 12px;
+  border: 1px solid #ccc; 
+  background-color: white;
+}
+.view-button:hover{
+  background-color: #fafa33;
+}

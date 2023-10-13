@@ -1,0 +1,220 @@
+.login-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  padding-left: 50px;
+}
+
+.login-form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.login-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.remember-forgot-container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+  margin-left: 6px;
+  margin-bottom: 1px;
+}
+
+.forgot-password a {
+  text-decoration: none;
+  color: #666;
+}
+
+.forgot-password{
+  margin-top: 3px;
+  margin-right:25px;
+}
+
+.forgot-password :hover{
+  color: black;
+}
+
+.login-button {
+  width: 100px;
+  padding: 10px;
+  color: black;
+  background-color: #b6b00e;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-style: normal;
+}
+
+.login-button {
+  width: 50%;
+  height: 50%;
+  margin-top: 30px;
+}
+
+.button {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.some-h5 {
+  display: flex;
+  justify-content: center;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 20px;
+  font-size: large;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.check {
+  margin-bottom: 8px;
+  margin-top: 8px;
+  margin-left: 10px
+}
+
+.centered-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-container {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.username-container {
+  margin: 20px;
+}
+
+.password-container {
+  margin: 20px;
+}
+
+.logo {
+  width: 43vw;
+  height: 100vh;
+}
+
+.s-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 25px;
+  color: green;
+  margin-top: 25px;
+}
+
+.linkedin,
+.facebook,
+.email :hover {
+  cursor: pointer;
+}
+
+.home-button {
+  margin-top: 20px;
+  display: flex;
+  justify-content: end;
+}
+
+.home-button a {
+  color: rgba(0, 255, 8, 0.788);
+  font-size: larger;
+  margin-left: 700px;
+  margin-bottom: 70px;
+}
+
+.home-button {
+  position: absolute;
+  top: 55px;
+  left: 523px;
+  width: 86px;
+  height: 39px;
+  background-color: white;
+  color: #156d15;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-family: "Montserrat";
+}
+
+.tribe-button {
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #1cff1c;
+}
+
+.tribe-button-div{
+  display: flex;
+  justify-content: center;
+}
+
+.login-form h2 {
+  font-size: 50px;
+  color: rgba(6, 200, 13, 0.824);
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.login-form h4 {
+  font-size: 20px;
+  color: black;
+  opacity: 0.6;
+  line-height: 1.2;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.login-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.login-form {
+  width: 30%;
+}
+
+.login-image {
+  width: 45%;
+  height: 100%;
+
+  background-size: cover;
+  background-position: center;
+}
+
+.foot {
+  display: flex;
+  justify-content: center;
+  font-family: "Courier New", Courier, monospace;
+  color: #666;
+  margin: 20px;
+  margin-top: 40px;
+  font-size: 19px;
+  opacity: 0.7;
+}

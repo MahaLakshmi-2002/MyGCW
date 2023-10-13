@@ -1,0 +1,16 @@
+.net-zero-carbon-neutral-box:nth-child(odd) .box-image {
+  order: 1; /* Set the order to 1 (content comes after image) */
+}
+
+.net-zero-carbon-neutral-box:nth-child(odd) .box-content {
+  order: 2; /* Set the order to 2 (content comes after image) */
+}
+
+/* For even boxes (image on right, content on left) */
+.net-zero-carbon-neutral-box:nth-child(even) .box-image {
+  order: 2; /* Set the order to 2 (content comes after image) */
+}
+
+.net-zero-carbon-neutral-box:nth-child(even) .box-content {
+  order: 1; /* Set the order to 1 (content comes after image) */
+}

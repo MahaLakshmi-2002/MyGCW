@@ -1,0 +1,75 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: black;
+  padding: 20px;
+  width: 1441px;
+  height: 277px;
+  top: 4930px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 0 20px; /* Adjust the padding as needed */
+}
+
+.footer-link-button {
+  color: #156d15; /* Set text color to #156D15 */
+  background-color: transparent;
+  border: none;
+  padding: 20px 25px; /* Increase button padding for larger size */
+  margin: 5px; /* Add spacing between buttons */
+  font: inherit;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 5px; /* Adding border radius for curved edges */
+  transition: transform 0.3s; /* Adding transition for smooth zoom effect */
+
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.footer-link-button:hover {
+  background-color: lightyellow;
+  transform: scale(1.1); /* Zoom effect on hover */
+}
+
+.footer-link-separator {
+  margin: 5 10px;
+  color: #000;
+}
+
+.footer-text {
+  background-color: #156d15;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  margin-top: auto;
+  width: calc(100% - 20px); /* Adjust the width */
+  font-size: 16px; /* Adjust the font size */
+}
+.footer-follow {
+  text-align: center;
+  margin: 10px 0;
+  text-decoration: underline;
+}
+
+.footer-images {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.footer-images img {
+  margin: 0 10px;
+}

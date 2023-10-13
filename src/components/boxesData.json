@@ -1,0 +1,115 @@
+{
+"boxesData":
+
+[
+    
+    {
+      "id": 1,
+      "title": "Box 1",
+      "content": "This is the content of box 1.",
+      "imageUrl": "/path/to/box1-image.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Box 2",
+      "content": "This is the content of box 2.",
+      "imageUrl": "/path/to/box2-image.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Box 3",
+      "content": "This is the content of box 3.",
+      "imageUrl": "/path/to/box3-image.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Box 4",
+      "content": "This is the content of box 4.",
+      "imageUrl": "/path/to/box4-image.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Box 5",
+      "content": "This is the content of box 5.",
+      "imageUrl": "/path/to/box5-image.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Box 6",
+      "content": "This is the content of box 6.",
+      "imageUrl": "/path/to/box6-image.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Box 7",
+      "content": "This is the content of box 7.",
+      "imageUrl": "/path/to/box7-image.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Box 8",
+      "content": "This is the content of box 8.",
+      "imageUrl": "/path/to/box8-image.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Box 9",
+      "content": "This is the content of box 9.",
+      "imageUrl": "/path/to/box9-image.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Box 10",
+      "content": "This is the content of box 10.",
+      "imageUrl": "/path/to/box10-image.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Box 11",
+      "content": "This is the content of box 11.",
+      "imageUrl": "/path/to/box11-image.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Box 12",
+      "content": "This is the content of box 12.",
+      "imageUrl": "/path/to/box12-image.jpg"
+    },
+    {
+      "id": 13,
+      "title": "Box 13",
+      "content": "This is the content of box 13.",
+      "imageUrl": "/path/to/box13-image.jpg"
+    },
+    {
+      "id": 14,
+      "title": "Box 14",
+      "content": "This is the content of box 14.",
+      "imageUrl": "/path/to/box14-image.jpg"
+    },
+    {
+      "id": 15,
+      "title": "Box 15",
+      "content": "This is the content of box 15.",
+      "imageUrl": "/path/to/box15-image.jpg"
+    },
+    {
+      "id": 16,
+      "title": "Box 16",
+      "content": "This is the content of box 16.",
+      "imageUrl": "/path/to/box16-image.jpg"
+    },
+    {
+      "id": 17,
+      "title": "Box 17",
+      "content": "This is the content of box 17.",
+      "imageUrl": "/path/to/box17-image.jpg"
+    },
+    {
+      "id": 18,
+      "title": "Box 18",
+      "content": "This is the content of box 18.",
+      "imageUrl": "/path/to/box18-image.jpg"
+    }
+  ]
+}

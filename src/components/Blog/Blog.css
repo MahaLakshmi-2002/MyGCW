@@ -1,0 +1,313 @@
+
+.image-container {
+  width: 100%;
+  max-height: 100%;
+  margin-top: 0%;
+}
+/* .myheader-gcw{
+  margin-top: 20px !important;
+} */
+
+
+/* Styles for wrapping the search box */
+
+
+
+
+
+.main {
+  width: 50%;
+  margin: 50px auto;
+}
+
+.blog{
+  color:#00af00;
+  margin-left: 20px; 
+  /* display: -webkit-inline-flex; */
+  /* padding: 20px; */
+}
+*{
+  box-sizing: border-box;
+}
+
+/* Style the search field */
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 30%;
+  background: #f1f1f1;
+  margin-left: 30%;
+  box-sizing:content-box;
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 5%;
+  padding: 10px;
+  background: yellow;
+  color: #777;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: palegreen;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
+/* Sort By button container */
+.sort-by {
+  display: -webkit-inline-flex;
+  align-items: center;
+  margin-left: 30%;
+}
+
+/* Sort By label */
+.sort-by span {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+/* Select input for sorting options */
+.sort-by select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+/* Sort direction toggle button */
+.sort-by button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  margin-left: 10px;
+  color: #007bff; 
+}
+
+/* Style for the sorting icons */
+.sort-by button svg {
+  margin-left: 1px;
+}
+
+/* Hover effect for the button */
+.sort-by button:hover {
+  text-decoration: underline;
+}
+
+
+
+
+/* Blog.css */
+.blog-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.blog-box {
+  width: 420px;
+  height: 700px;
+  margin: 10px;
+
+  overflow: hidden;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ddffdd;
+  transition: transform 0.2s ease;
+}
+/* Set background colors for specific boxes */
+.blog-box:nth-child(3n-1) {
+  background-color: #ffffff; /* White background for box 2, 5, and 7 */
+}
+.blog-box:nth-child(3n-2):hover {
+  background-color: #fafa33;
+  transform: scale(1.05); /* Zoom-in effect on hover */
+}
+.blog-box:hover {
+  background-color: #fafa33;
+  transform: scale(1.05); /* Zoom-in effect on hover */
+}
+.blog-box:nth-child(3n):hover {
+  background-color: #fafa33;
+  transform: scale(1.05); /* Zoom-in effect on hover */
+}
+.blog-box:nth-child(3n-2),
+.blog-box:nth-child(3n) {
+  background-color: #ddffdd;
+}
+
+.blog-box h2 {
+  margin: 10px 0;
+  font-weight: semi-bold;
+  margin-bottom: 10px;
+  color: #00af00;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+}
+
+.box-image {
+  flex: 1; /* Let the image take 50% of the available width */
+  /* Limit the image width to 50% of the box size */
+  margin-right: 10px; /* Add some spacing between the image and content */
+  max-height: 50%;
+}
+.box-image img {
+  max-height: 100%; /* Ensure the image fits within the box */
+  border-radius: 8px;
+}
+
+.box-content {
+  padding: 20px;
+  height: 50%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.blog-box .content-wrapper {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50%;
+}
+
+
+.no-underline {
+  text-decoration: none;
+}
+.bell-link {
+  text-decoration: none;
+  color: #ff6b6b; /* Set the link color to your preference */
+  margin-left: 95%;
+  padding:auto;
+}
+
+.bell-link:hover {
+  text-decoration: underline; /* Add underline on hover if desired */
+}
+
+/* Share icon */
+.share-link {
+  text-decoration: none;
+  padding:10px;
+  
+}
+
+.share-link:hover {
+  text-decoration: underline;
+  color: #007bff; /* Add underline on hover if desired */
+}
+/* heart icon */
+.heart-link {
+  text-decoration: none;
+  color: #e74c3c;
+  padding:10px;
+  
+}
+
+.heart-link:hover {
+  text-decoration: underline; /* Add underline on hover if desired */
+}
+
+.read-more-link {
+  text-decoration: none;
+  color: #007bff; /* Set the link color to your preference */
+  padding-left: 200px;
+  
+}
+
+.read-more-link:hover {
+  text-decoration: none; /* Add underline on hover if desired */
+  
+}
+
+
+
+/* Center the page-buttons-container using Flexbox */
+.your-component-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page-buttons-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  margin-left: 40%;
+}
+
+.page-buttons-container button {
+  padding: 10px 20px;
+  background-color: #fafa33;
+  color: black;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.page-buttons-container button:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+  border-radius: 10px;
+}
+
+.page-no{
+  display: flex;
+  align-items: center;
+  margin-left: 50%;
+  padding: auto;
+}
+.bordered-text {
+  border: 1px solid #000; /* Add your desired border style and color */
+  padding: 2px 10px 2px 10px; /* Optional: Add padding to create space between the content and the border */
+}
+.white-text {
+  color: white;
+  display: flex; 
+}
+.green-text{
+  color: #00af00;
+  
+}
+.yellow-background {
+  background-color: yellow;
+  /* Additional styling (e.g., text color and padding) can be added as needed */
+  color: black; /* Change the text color to ensure readability */
+  padding: 10px 20px; /* Add padding for better button appearance */
+  border: none; /* Remove the default button border if desired */
+  cursor: pointer; /* Add a pointer cursor to indicate interactivity */
+  border-radius: 10px;
+  display: flex;
+  
+}
+
+.carbon-image img {
+  margin-left: 10px;
+  border-radius: 10px; /* Adjust the value as per your desired border radius */
+}
+
+
+
+
